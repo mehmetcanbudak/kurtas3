@@ -10235,6 +10235,14 @@ a:hover {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   }
 
+  .content23-image {
+    height: 300px;
+  }
+
+  .content23-image.abobutimg {
+    height: 250px;
+  }
+
   .success-message {
     max-width: 738px;
   }
@@ -10304,12 +10312,16 @@ a:hover {
 
   .hero6.tablet {
     width: 100%;
-    height: 400px;
+    height: 300px;
     min-height: 0px;
   }
 
   .image-10 {
     padding-left: 20px;
+  }
+
+  .image-10.landscape.mobil.tabl {
+    margin-left: 140px;
   }
 
   .footer1-grid {
@@ -14389,9 +14401,13 @@ a:hover {
   }
 
   .content23-image {
-    height: 360px;
+    height: 200px;
     margin-top: 15px;
     margin-bottom: 15px;
+  }
+
+  .content23-image.abobutimg {
+    height: 200px;
   }
 
   .content23-item {
@@ -14442,6 +14458,7 @@ a:hover {
   }
 
   .hero6-grid {
+    overflow: visible;
     max-width: none;
     grid-column-gap: 20px;
     -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -14453,8 +14470,25 @@ a:hover {
     line-height: 42px;
   }
 
+  .hero6-content.mobil {
+    display: block;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
   .hero6 {
     min-height: 600px;
+  }
+
+  .hero6.tablet {
+    height: 275px;
+  }
+
+  .image-10.landscape {
+    margin-left: 140px;
   }
 
   .footer1 {
@@ -18226,6 +18260,10 @@ a:hover {
     height: 160px;
   }
 
+  .content23-image.abobutimg {
+    height: 150px;
+  }
+
   .button-text {
     margin-top: -46px;
     margin-right: 0px;
@@ -18363,6 +18401,14 @@ a:hover {
     height: 30px;
     min-width: 0px;
     margin-right: auto;
+    margin-left: auto;
+  }
+
+  .image-10.landscape.mobil {
+    margin-left: auto;
+  }
+
+  .image-10.landscape.mobil.tabl.son {
     margin-left: auto;
   }
 
